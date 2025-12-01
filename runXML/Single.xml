@@ -12,7 +12,7 @@
  
 
     <classes>
-       <class name="testCases.TC004_AboutUs"/>
+       <class name="testCases.TC007_AddAndRemoveWishList"/>
     </classes>
 
 

@@ -4,36 +4,17 @@
   <listeners>
     <listener class-name="utilities.ExtentReportManager"/>
   </listeners>
-  <test thread-count="5" name="Master(failed)">
+  <test thread-count="5" name="serial(failed)">
+    <parameter name="br" value="chrome"/>
+    <parameter name="os" value="windows"/>
     <classes>
-      <class name="testCases.TC003_ContactUs">
+      <class name="testCases.TC007_AddAndRemoveWishList">
         <methods>
+          <include name="AddAndRemoveWishList"/>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="contactus"/>
         </methods>
-      </class> <!-- testCases.TC003_ContactUs -->
-      <class name="testCases.TC001_MegaMenu">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="megamenu"/>
-        </methods>
-      </class> <!-- testCases.TC001_MegaMenu -->
-      <class name="testCases.TC004_AboutUs">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="aboutUs"/>
-        </methods>
-      </class> <!-- testCases.TC004_AboutUs -->
-      <class name="testCases.TC002_NewsLetterSuccess">
-        <methods>
-          <include name="tearDown"/>
-          <include name="NewsLetterSuccess"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- testCases.TC002_NewsLetterSuccess -->
+      </class> <!-- testCases.TC007_AddAndRemoveWishList -->
     </classes>
-  </test> <!-- Master(failed) -->
+  </test> <!-- serial(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -47,3 +47,97 @@
 14:49:52.769 [main] INFO  testCases.TC003_ContactUs - LOGGER TEST: BaseClass initialized
 14:50:10.538 [main] INFO  testCases.TC004_AboutUs - LOGGER TEST: BaseClass initialized
 14:51:42.146 [TestNG-test-Master-1] INFO  testCases.TC001_MegaMenu - LOGGER TEST: BaseClass initialized
+16:00:21.193 [main] INFO  testCases.TC005_CreateAccount - LOGGER TEST: BaseClass initialized
+16:01:51.782 [main] INFO  testCases.TC005_CreateAccount - LOGGER TEST: BaseClass initialized
+16:28:37.395 [main] INFO  testCases.TC005_CreateAccount - LOGGER TEST: BaseClass initialized
+16:31:06.500 [main] INFO  testCases.TC005_CreateAccount - LOGGER TEST: BaseClass initialized
+16:32:10.618 [main] INFO  testCases.TC005_CreateAccount - LOGGER TEST: BaseClass initialized
+16:32:19.851 [main] INFO  testCases.TC005_CreateAccount - step 1
+16:32:23.129 [main] INFO  testCases.TC005_CreateAccount - step 2
+16:35:04.097 [main] INFO  testCases.TC005_CreateAccount - LOGGER TEST: BaseClass initialized
+16:35:15.759 [main] INFO  testCases.TC005_CreateAccount - step 1
+16:35:19.822 [main] INFO  testCases.TC005_CreateAccount - step 2
+16:37:41.053 [main] INFO  testCases.TC005_CreateAccount - LOGGER TEST: BaseClass initialized
+16:37:54.005 [main] INFO  testCases.TC005_CreateAccount - step 1
+16:37:57.271 [main] INFO  testCases.TC005_CreateAccount - step 2
+16:56:30.686 [main] INFO  testCases.TC005_CreateAccount - LOGGER TEST: BaseClass initialized
+16:56:41.409 [main] INFO  testCases.TC005_CreateAccount - step 1
+16:58:08.191 [main] INFO  testCases.TC005_CreateAccount - LOGGER TEST: BaseClass initialized
+16:58:17.078 [main] INFO  testCases.TC005_CreateAccount - step 1
+17:00:41.658 [main] INFO  testCases.TC005_CreateAccount - LOGGER TEST: BaseClass initialized
+17:00:52.522 [main] INFO  testCases.TC005_CreateAccount - step 1
+17:00:52.610 [main] INFO  testCases.TC005_CreateAccount - step 2
+17:03:31.003 [main] INFO  testCases.TC005_CreateAccount - LOGGER TEST: BaseClass initialized
+17:03:40.739 [main] INFO  testCases.TC005_CreateAccount - step 1
+17:03:43.748 [main] INFO  testCases.TC005_CreateAccount - step 2
+17:04:20.061 [main] INFO  testCases.TC005_CreateAccount - LOGGER TEST: BaseClass initialized
+17:04:28.833 [main] INFO  testCases.TC005_CreateAccount - step 1
+17:04:35.326 [main] INFO  testCases.TC005_CreateAccount - step 2
+17:05:18.989 [main] INFO  testCases.TC005_CreateAccount - LOGGER TEST: BaseClass initialized
+17:05:31.102 [main] INFO  testCases.TC005_CreateAccount - step 1
+17:05:34.686 [main] INFO  testCases.TC005_CreateAccount - step 2
+17:07:11.296 [main] INFO  testCases.TC005_CreateAccount - LOGGER TEST: BaseClass initialized
+17:07:20.559 [main] INFO  testCases.TC005_CreateAccount - step 1
+17:07:24.060 [main] INFO  testCases.TC005_CreateAccount - step 2
+17:10:29.762 [main] INFO  testCases.TC005_CreateAccount - LOGGER TEST: BaseClass initialized
+17:10:38.317 [main] INFO  testCases.TC005_CreateAccount - step 1
+17:11:15.432 [main] INFO  testCases.TC005_CreateAccount - LOGGER TEST: BaseClass initialized
+17:11:24.178 [main] INFO  testCases.TC005_CreateAccount - LOGGER TEST: BaseClass initialized
+17:11:33.057 [main] INFO  testCases.TC005_CreateAccount - step 1
+17:11:37.157 [main] INFO  testCases.TC005_CreateAccount - step 2
+17:13:59.102 [main] INFO  testCases.TC005_CreateAccount - LOGGER TEST: BaseClass initialized
+17:14:08.354 [main] INFO  testCases.TC005_CreateAccount - step 1
+17:14:11.374 [main] INFO  testCases.TC005_CreateAccount - step 2
+17:14:33.255 [main] INFO  testCases.TC005_CreateAccount - LOGGER TEST: BaseClass initialized
+17:14:42.923 [main] INFO  testCases.TC005_CreateAccount - step 1
+17:14:46.150 [main] INFO  testCases.TC005_CreateAccount - step 2
+17:15:30.623 [main] INFO  testCases.TC005_CreateAccount - LOGGER TEST: BaseClass initialized
+17:15:38.866 [main] INFO  testCases.TC005_CreateAccount - step 1
+17:15:43.192 [main] INFO  testCases.TC005_CreateAccount - step 2
+17:16:54.785 [main] INFO  testCases.TC005_CreateAccount - LOGGER TEST: BaseClass initialized
+17:17:03.817 [main] INFO  testCases.TC005_CreateAccount - step 1
+17:17:10.793 [main] INFO  testCases.TC005_CreateAccount - step 2
+17:17:43.810 [main] INFO  testCases.TC005_CreateAccount - LOGGER TEST: BaseClass initialized
+17:17:53.548 [main] INFO  testCases.TC005_CreateAccount - step 1
+17:17:58.820 [main] INFO  testCases.TC005_CreateAccount - step 2
+17:19:57.666 [main] INFO  testCases.TC005_CreateAccount - LOGGER TEST: BaseClass initialized
+17:20:06.266 [main] INFO  testCases.TC005_CreateAccount - step 1
+17:20:11.676 [main] INFO  testCases.TC005_CreateAccount - step 2
+17:24:26.394 [main] INFO  testCases.TC003_ContactUs - LOGGER TEST: BaseClass initialized
+17:25:25.750 [main] INFO  testCases.TC002_NewsLetterSuccess - LOGGER TEST: BaseClass initialized
+17:26:55.521 [main] INFO  testCases.TC002_NewsLetterSuccess - LOGGER TEST: BaseClass initialized
+17:28:12.119 [main] INFO  testCases.TC004_AboutUs - LOGGER TEST: BaseClass initialized
+17:32:06.851 [main] INFO  testCases.TC005_CreateAccount - LOGGER TEST: BaseClass initialized
+17:32:15.594 [main] INFO  testCases.TC005_CreateAccount - step 1
+17:32:21.230 [main] INFO  testCases.TC005_CreateAccount - step 2
+17:35:14.636 [main] INFO  testCases.TC005_CreateAccount - LOGGER TEST: BaseClass initialized
+17:35:23.428 [main] INFO  testCases.TC005_CreateAccount - step 1
+17:35:26.729 [main] INFO  testCases.TC005_CreateAccount - step 2
+17:40:11.476 [main] INFO  testCases.TC005_CreateAccount - LOGGER TEST: BaseClass initialized
+17:40:20.839 [main] INFO  testCases.TC005_CreateAccount - step 1
+17:40:23.936 [main] INFO  testCases.TC005_CreateAccount - step 2
+17:43:11.201 [main] INFO  testCases.TC005_CreateAccount - LOGGER TEST: BaseClass initialized
+17:43:19.684 [main] INFO  testCases.TC005_CreateAccount - step 1
+17:43:22.934 [main] INFO  testCases.TC005_CreateAccount - step 2
+17:49:15.318 [main] INFO  testCases.TC005_CreateAccount - LOGGER TEST: BaseClass initialized
+17:49:24.254 [main] INFO  testCases.TC005_CreateAccount - step 1
+17:49:28.356 [main] INFO  testCases.TC005_CreateAccount - step 2
+17:49:57.435 [main] INFO  testCases.TC005_CreateAccount - LOGGER TEST: BaseClass initialized
+17:51:42.037 [main] INFO  testCases.TC005_CreateAccount - LOGGER TEST: BaseClass initialized
+17:51:54.164 [main] INFO  testCases.TC005_CreateAccount - step 1
+17:52:00.336 [main] INFO  testCases.TC005_CreateAccount - step 2
+17:53:55.319 [main] INFO  testCases.TC005_CreateAccount - LOGGER TEST: BaseClass initialized
+17:54:05.634 [main] INFO  testCases.TC005_CreateAccount - step 1
+17:54:13.212 [main] INFO  testCases.TC005_CreateAccount - step 2
+18:00:50.659 [main] INFO  testCases.TC005_CreateAccount - LOGGER TEST: BaseClass initialized
+18:01:00.650 [main] INFO  testCases.TC005_CreateAccount - step 1
+18:01:06.760 [main] INFO  testCases.TC005_CreateAccount - step 2
+18:18:32.991 [main] INFO  testCases.TC006_LoginLogout - LOGGER TEST: BaseClass initialized
+18:19:47.395 [main] INFO  testCases.TC006_LoginLogout - LOGGER TEST: BaseClass initialized
+18:58:37.241 [main] INFO  testCases.TC007_AddAndRemoveWishList - LOGGER TEST: BaseClass initialized
+19:00:19.492 [main] INFO  testCases.TC007_AddAndRemoveWishList - LOGGER TEST: BaseClass initialized
+19:17:05.530 [main] INFO  testCases.TC007_AddAndRemoveWishList - LOGGER TEST: BaseClass initialized
+19:18:13.213 [main] INFO  testCases.TC007_AddAndRemoveWishList - LOGGER TEST: BaseClass initialized
+21:09:29.812 [main] INFO  testCases.TC007_AddAndRemoveWishList - LOGGER TEST: BaseClass initialized
+21:33:31.091 [main] INFO  testCases.TC007_AddAndRemoveWishList - LOGGER TEST: BaseClass initialized
+21:34:52.460 [main] INFO  testCases.TC007_AddAndRemoveWishList - LOGGER TEST: BaseClass initialized

@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 
 import pageObjects.HomePage;
 import testBase.BaseClass;
+import utilities.Reusable_Screenshots;
 
 public class TC004_AboutUs extends BaseClass{
 
@@ -15,6 +16,7 @@ public class TC004_AboutUs extends BaseClass{
 		hp.acceptCookies();
 		hp.aboutUsBtn();
 		Assert.assertEquals(hp.aboutUsTitle(),"OurStory");
+		Reusable_Screenshots.Screenshots("TC004_AboutUs");
 	}
 	
 	
