@@ -25,7 +25,7 @@ import utilities.Reusable_MouseKeyboardActions;
 public class BaseClass {
 
 	public Logger logger;
-	Properties p;
+	public Properties p;
 	public Reusable_FakerUtils faker;
 	public Reusable_MouseKeyboardActions act;
 	
@@ -58,7 +58,6 @@ public class BaseClass {
 	    DriverManager.getDriver().manage().window().maximize();
 	    DriverManager.getDriver().manage().deleteAllCookies();	
 	    DriverManager.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-		
 	
 	}
 	

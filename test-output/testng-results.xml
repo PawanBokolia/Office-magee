@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-01T19:18:11 IST" name="Suite" finished-at="2025-12-01T19:18:41 IST" duration-ms="29532">
+  <suite started-at="2025-12-01T21:34:51 IST" name="Suite" finished-at="2025-12-01T21:35:54 IST" duration-ms="63412">
     <groups>
     </groups>
-    <test started-at="2025-12-01T19:18:11 IST" name="serial" finished-at="2025-12-01T19:18:41 IST" duration-ms="29532">
+    <test started-at="2025-12-01T21:34:51 IST" name="serial" finished-at="2025-12-01T21:35:54 IST" duration-ms="63412">
       <class name="testCases.TC007_AddAndRemoveWishList">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:testCases.TC007_AddAndRemoveWishList@26794848]" started-at="2025-12-01T19:18:12 IST" name="setUp" finished-at="2025-12-01T19:18:22 IST" duration-ms="10473" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:testCases.TC007_AddAndRemoveWishList@26794848]" started-at="2025-12-01T21:34:51 IST" name="setUp" finished-at="2025-12-01T21:35:16 IST" duration-ms="24342" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -21,18 +21,18 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@6848a051]]>
+                <![CDATA[org.testng.TestRunner@1fd9893c]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="AddAndRemoveWishList()[pri:0, instance:testCases.TC007_AddAndRemoveWishList@26794848]" started-at="2025-12-01T19:18:22 IST" name="AddAndRemoveWishList" finished-at="2025-12-01T19:18:41 IST" duration-ms="18327" status="PASS">
+        <test-method signature="AddAndRemoveWishList()[pri:0, instance:testCases.TC007_AddAndRemoveWishList@26794848]" started-at="2025-12-01T21:35:16 IST" name="AddAndRemoveWishList" finished-at="2025-12-01T21:35:54 IST" duration-ms="38162" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddAndRemoveWishList -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC007_AddAndRemoveWishList@26794848]" started-at="2025-12-01T19:18:41 IST" name="tearDown" finished-at="2025-12-01T19:18:41 IST" duration-ms="220" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC007_AddAndRemoveWishList@26794848]" started-at="2025-12-01T21:35:54 IST" name="tearDown" finished-at="2025-12-01T21:35:54 IST" duration-ms="328" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

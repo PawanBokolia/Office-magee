@@ -21,8 +21,8 @@ public class TC006_LoginLogout extends BaseClass{
 		hp.clickOnSignInBtn();
 		
 		LoginPage lg = new LoginPage();
-		lg.emailInputFieldLogin("pawan.bokoliaqa@gmail.com");
-		lg.passwordInputLogin("pawan@95");
+		lg.emailInputFieldLogin(p.getProperty("username"));
+		lg.passwordInputLogin(p.getProperty("password"));
 		lg.clickonSignInBtn();
 		
 		MyAccount ac = new MyAccount();

@@ -13,7 +13,7 @@ public class Reusable_Screenshots {
 
 	 static public String Screenshots(String tname) 
 	 {
-	String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
+		String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
 		
 		TakesScreenshot takesScreenshot = (TakesScreenshot) DriverManager.getDriver();
 		File sourceFile = takesScreenshot.getScreenshotAs(OutputType.FILE);

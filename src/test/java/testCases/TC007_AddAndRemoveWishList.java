@@ -1,9 +1,11 @@
 package testCases;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import pageObjects.HomePage;
 import pageObjects.LoginPage;
+import pageObjects.MyAccount;
 import pageObjects.ProductDetail;
 import pageObjects.ProductListing;
 import testBase.BaseClass;
@@ -21,8 +23,8 @@ public class TC007_AddAndRemoveWishList extends BaseClass{
 		hp.clickOnSignInBtn();
 		
 		LoginPage lp = new LoginPage();
-		lp.emailInputFieldLogin("pawan.bokoliaqa@gmail.com");
-		lp.passwordInputLogin("pawan@95");
+		lp.emailInputFieldLogin(p.getProperty("username"));
+		lp.passwordInputLogin(p.getProperty("password"));
 		lp.clickonSignInBtn();
 		
 		hp.clickonMenCategory();
@@ -32,7 +34,16 @@ public class TC007_AddAndRemoveWishList extends BaseClass{
 		
 		ProductDetail pd = new ProductDetail();
 		pd.clickonWishlistBtn();
+		
+		Thread.sleep(3000);
+		MyAccount ac = new MyAccount();
+		Assert.assertEquals(ac.wishlistConfMsg(), "test123 has been added to your Wish List. Click here to continue shopping.");
 		Reusable_Screenshots.Screenshots("TC007_AddWishList");
+		
+		ac.removeWishlistItem();
+		Assert.assertEquals(ac.removeWishlistMsg(), "test123 has been removed from your Wish List.");
+		Reusable_Screenshots.Screenshots("TC007_removeWishList");
+		
 	}
 	
 }
