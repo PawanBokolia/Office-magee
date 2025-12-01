@@ -62,6 +62,11 @@ public class HomePage extends BasePage{
 	@FindBy(xpath = "//span[normalize-space()='Story']")
 	WebElement aboutUsTitlt2;
 	
+	@FindBy(xpath="//div[@class='relative inline-block']")
+	WebElement signInBtn;
+	
+	
+	
 	
 	//cookies
 	public void acceptCookies() 
@@ -139,6 +144,23 @@ public class HomePage extends BasePage{
 		js.scrollTo(aboutUsTitlt1);
 		return aboutUsTitlt1.getText()+aboutUsTitlt2.getText();
 	}
+	
+	public void clickOnSignInBtn()
+	{
+		act.mouseClick(signInBtn);
+	}
+	
+	//wishList
+	public void clickonMenCategory()
+	{
+		category1.click();
+	}
+	
+	
+	
+	
+	
+	
 	
 	
 }

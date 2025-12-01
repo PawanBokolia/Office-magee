@@ -30,7 +30,11 @@ public class Reusable_waitUtils {
 		}
 	}
 
-
+	public void elementWait(WebElement locator)
+	{
+		wait.until(ExpectedConditions.elementToBeClickable(locator));
+	}
+	
 	public void elementPresent(WebElement locator)   			 //work normally in POM 
 	{
 		wait.until(ExpectedConditions.visibilityOf(locator));

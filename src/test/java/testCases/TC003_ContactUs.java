@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 
 import pageObjects.HomePage;
 import testBase.BaseClass;
+import utilities.Reusable_Screenshots;
 
 public class TC003_ContactUs extends BaseClass{
 
@@ -16,7 +17,7 @@ public class TC003_ContactUs extends BaseClass{
 		hp.clickOnContactUsbtn();
 		
 		Assert.assertEquals(hp.contactUsTitle(), "Contact Us");
-		
+		Reusable_Screenshots.Screenshots("TC003_ContactUs");
 	}
 	
 	
