@@ -1,5 +1,8 @@
+#Git ignore files 
+
 target/
 reports/
 screenshots/
 test-output/
+logs/
 
