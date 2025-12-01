@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-29T14:51:40 IST" name="Suite" finished-at="2025-11-29T14:52:21 IST" duration-ms="40345">
+    <groups>
+    </groups>
+    <test started-at="2025-11-29T14:51:40 IST" name="Master" finished-at="2025-11-29T14:52:21 IST" duration-ms="40345">
+      <class name="testCases.TC003_ContactUs">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:testCases.TC003_ContactUs@7a8c8dcf]" started-at="2025-11-29T14:51:41 IST" name="setUp" finished-at="2025-11-29T14:51:56 IST" duration-ms="15100" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5d465e4b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="contactus()[pri:0, instance:testCases.TC003_ContactUs@7a8c8dcf]" started-at="2025-11-29T14:51:56 IST" name="contactus" finished-at="2025-11-29T14:52:06 IST" duration-ms="10136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactus -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_ContactUs@7a8c8dcf]" started-at="2025-11-29T14:52:06 IST" name="tearDown" finished-at="2025-11-29T14:52:06 IST" duration-ms="375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC003_ContactUs -->
+      <class name="testCases.TC002_NewsLetterSuccess">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:testCases.TC002_NewsLetterSuccess@5dda768f]" started-at="2025-11-29T14:51:41 IST" name="setUp" finished-at="2025-11-29T14:51:58 IST" duration-ms="17400" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5d465e4b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="NewsLetterSuccess()[pri:0, instance:testCases.TC002_NewsLetterSuccess@5dda768f]" started-at="2025-11-29T14:51:58 IST" name="NewsLetterSuccess" finished-at="2025-11-29T14:52:13 IST" duration-ms="15093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewsLetterSuccess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_NewsLetterSuccess@5dda768f]" started-at="2025-11-29T14:52:13 IST" name="tearDown" finished-at="2025-11-29T14:52:15 IST" duration-ms="1869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC002_NewsLetterSuccess -->
+      <class name="testCases.TC004_AboutUs">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:testCases.TC004_AboutUs@24269709]" started-at="2025-11-29T14:51:41 IST" name="setUp" finished-at="2025-11-29T14:51:58 IST" duration-ms="17506" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5d465e4b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="aboutUs()[pri:0, instance:testCases.TC004_AboutUs@24269709]" started-at="2025-11-29T14:51:58 IST" name="aboutUs" finished-at="2025-11-29T14:52:20 IST" duration-ms="22196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aboutUs -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC004_AboutUs@24269709]" started-at="2025-11-29T14:52:20 IST" name="tearDown" finished-at="2025-11-29T14:52:21 IST" duration-ms="328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC004_AboutUs -->
+      <class name="testCases.TC001_MegaMenu">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:testCases.TC001_MegaMenu@49438269]" started-at="2025-11-29T14:51:41 IST" name="setUp" finished-at="2025-11-29T14:51:57 IST" duration-ms="16429" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5d465e4b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="megamenu()[pri:0, instance:testCases.TC001_MegaMenu@49438269]" started-at="2025-11-29T14:51:57 IST" name="megamenu" finished-at="2025-11-29T14:52:20 IST" duration-ms="22758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- megamenu -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_MegaMenu@49438269]" started-at="2025-11-29T14:52:20 IST" name="tearDown" finished-at="2025-11-29T14:52:20 IST" duration-ms="364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC001_MegaMenu -->
+    </test> <!-- Master -->
+  </suite> <!-- Suite -->
+</testng-results>
