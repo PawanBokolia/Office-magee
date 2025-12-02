@@ -11,13 +11,16 @@
 	<parameter name="br" value="chrome"></parameter>  
   
     <classes>
-      <class name="testCases.TC001_MegaMenu"/>
-      <class name="testCases.TC002_NewsLetterSuccess"/>
-      <class name="testCases.TC003_ContactUs"/>
-      <class name="testCases.TC004_AboutUs"/>
-      <class name="testCases.TC005_CreateAccount"/>
-      <class name="testCases.TC006_LoginLogout"/>
-      <class name="testCases.TC007_AddAndRemoveWishList"/>
+	  <class name="testCases.TC001_MegaMenu"/>
+	  <class name="testCases.TC002_NewsLetterSuccess"/>
+	  <class name="testCases.TC003_ContactUs"/>
+	  <class name="testCases.TC004_AboutUs"/>
+	  <class name="testCases.TC005_CreateAccount"/>
+	  <class name="testCases.TC006_LoginLogout"/>
+	  <class name="testCases.TC007_AddAndRemoveWishList"/>
+	  <class name="testCases.TC008_ChangePassword"/>
+	  <class name="testCases.TC009_SecarchFunctionality"/>	
+	  
 
     </classes>
   </test> <!-- Test -->

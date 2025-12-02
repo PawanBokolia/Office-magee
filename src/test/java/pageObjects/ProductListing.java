@@ -10,8 +10,19 @@ public class ProductListing extends BasePage{
 		super();
 	}
 
+	//product 
 	@FindBy(css="img[title='test123']")
 	WebElement testproduct;
+	
+	//Filters
+	@FindBy(xpath="//h2[@id='filters-heading']//button")
+	WebElement filterbutton;
+	
+	@FindBy(xpath="//details[@id='color']//span")
+	WebElement colorfilter;
+	
+	@FindBy(css="a[aria-label='Filter Color Red']")
+	WebElement redcolorFilter;
 	
 	
 	public void clickonTestProduct()
@@ -19,6 +30,12 @@ public class ProductListing extends BasePage{
 		testproduct.click();
 	}
 	
+	public void redColourfilerSelection()
+	{
+		filterbutton.click();
+		wait.elementClickable(colorfilter);
+		wait.elementClickable(redcolorFilter);
+	}
 	
 	
 	

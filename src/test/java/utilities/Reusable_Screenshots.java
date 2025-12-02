@@ -11,8 +11,9 @@ import testBase.DriverManager;
 
 public class Reusable_Screenshots {
 
-	 static public String Screenshots(String tname) 
+	 static public String Screenshots(String tname) throws InterruptedException 
 	 {
+		Thread.sleep(2000); 
 		String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
 		
 		TakesScreenshot takesScreenshot = (TakesScreenshot) DriverManager.getDriver();

@@ -66,6 +66,21 @@ public class HomePage extends BasePage{
 	WebElement signInBtn;
 	
 	
+	//Search Functionality
+	@FindBy(id="menu-search-icon")
+	WebElement searchIcon;
+	
+	@FindBy(id="search")
+	WebElement searchField;
+	
+	@FindBy(xpath= "(//div[@class='font-normal text-xs text-primaryNew min-h-8'])[1]")
+	WebElement productNameInSearch;
+	
+	@FindBy(xpath="//button[normalize-space()='View All Products']")
+	WebElement viewAllBtn;
+	
+	@FindBy(xpath="//a[normalize-space()='test123']")
+	WebElement searchResultInViewAll;
 	
 	
 	//cookies
@@ -145,10 +160,12 @@ public class HomePage extends BasePage{
 		return aboutUsTitlt1.getText()+aboutUsTitlt2.getText();
 	}
 	
+	//sign in button 
 	public void clickOnSignInBtn()
 	{
 		act.mouseClick(signInBtn);
 	}
+	
 	
 	//wishList
 	public void clickonMenCategory()
@@ -157,7 +174,30 @@ public class HomePage extends BasePage{
 	}
 	
 	
+	//search Functionality
+	public void clickonSearchIcon()
+	{
+		searchIcon.click();
+	}
 	
+	public void searchFieldText(String productOrSku)
+	{
+		searchField.sendKeys(productOrSku);
+	}
+	
+	public String searchResultProNameInrecommendation()
+	{
+		wait.elementPresent(productNameInSearch);
+		return	productNameInSearch.getText();
+	}
+	
+	public String seachResultInViewAll()
+	{
+		viewAllBtn.click();
+		wait.elementPresent(searchResultInViewAll);
+		js.scrollTo(searchResultInViewAll);
+		return searchResultInViewAll.getText();
+	}
 	
 	
 	

@@ -35,6 +35,7 @@ public class LoginPage extends BasePage{
 	@FindBy(css="button[title='Create an Account']")
 	WebElement createAcoountBtn;
 	
+	
 	//login
 	@FindBy(id="email")
 	WebElement emailInput;
@@ -45,6 +46,25 @@ public class LoginPage extends BasePage{
 	@FindBy(name="send")
 	WebElement singInButton;
 	
+	
+	//Change Password
+	@FindBy(xpath="//a[normalize-space()='Change Password']")
+	WebElement changePasswordBtn;
+	
+	@FindBy(id="current-password")
+	WebElement currentPasswordField;
+	
+	@FindBy(id="password")
+	WebElement newPasswordField;
+	
+	@FindBy(id ="password-confirmation")
+	WebElement ConfNewPasswordField;
+	
+	@FindBy(css="button[type='submit']")
+	WebElement saveNewPassBtn;
+	
+	
+	//create account
 	public void clickOnCreateAccBtn()
 	{
 		createAccontbtn.click();
@@ -94,5 +114,20 @@ public class LoginPage extends BasePage{
 		singInButton.click();
 	}
 
-		
+	public void clickonChangePass()
+	{
+		changePasswordBtn.click();
+	}
+	
+	public void fillPasswordChangeField(String currentPassword,String newPAssword,String ConfNewPassword)
+	{
+		currentPasswordField.sendKeys(currentPassword);
+		newPasswordField.sendKeys(newPAssword);
+		ConfNewPasswordField.sendKeys(ConfNewPassword);
+		saveNewPassBtn.click();
+	}
+	
+ 
+	
+	
 }

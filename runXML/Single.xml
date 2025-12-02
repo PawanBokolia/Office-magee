@@ -12,7 +12,7 @@
  
 
     <classes>
-       <class name="testCases.TC003_ContactUs"/>
+       <class name="testCases.TC010_RedColourFilter"/>
     </classes>
 
 
