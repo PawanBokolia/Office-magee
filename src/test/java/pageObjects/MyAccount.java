@@ -3,8 +3,6 @@ package pageObjects;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-import net.bytebuddy.asm.MemberSubstitution.FieldValue;
-
 public class MyAccount extends BasePage{
 	
 	public MyAccount()

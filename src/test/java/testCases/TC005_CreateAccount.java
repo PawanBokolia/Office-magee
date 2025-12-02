@@ -23,8 +23,8 @@ public class TC005_CreateAccount  extends BaseClass{
 		//login page
 		LoginPage lp = new LoginPage();
 		lp.clickOnCreateAccBtn();
-		lp.firstNameTextField(faker.randomFirstName());
-		lp.LastNameTextField(faker.randomLastName());
+		lp.firstNameTextField("test");
+		lp.LastNameTextField("chilliapple");
 		lp.clickNewsLetterCheckBox();
 		lp.emailAddressInputField(faker.randomEmail());
 		lp.passwordInputField("pawan@96");

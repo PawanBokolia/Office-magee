@@ -10,7 +10,7 @@ import utilities.Reusable_Screenshots;
 public class TC003_ContactUs extends BaseClass{
 
 	@Test
-	public void contactus()
+	public void contactus() throws InterruptedException
 	{
 		HomePage hp = new HomePage();
 		hp.acceptCookies();
