@@ -87,18 +87,12 @@ public class LoginPage extends BasePage{
 	
 
 	//login
-	public void emailInputFieldLogin(String email)
+	public void login(String email, String password)
 	{
 		emailInput.sendKeys(email);
-	}
-
-	public void passwordInputLogin(String password)
-	{
 		passwordFieldlogin.sendKeys(password);
-	}
-	
-	public void clickonSignInBtn()
-	{
 		singInButton.click();
 	}
+
+		
 }

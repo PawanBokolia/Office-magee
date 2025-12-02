@@ -21,9 +21,7 @@ public class TC006_LoginLogout extends BaseClass{
 		hp.clickOnSignInBtn();
 		
 		LoginPage lg = new LoginPage();
-		lg.emailInputFieldLogin(p.getProperty("username"));
-		lg.passwordInputLogin(p.getProperty("password"));
-		lg.clickonSignInBtn();
+		lg.login(p.getProperty("username"),p.getProperty("password"));
 		
 		MyAccount ac = new MyAccount();
 		Assert.assertEquals(ac.myaccountTittle(),"My Account");

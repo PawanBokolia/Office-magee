@@ -23,9 +23,7 @@ public class TC007_AddAndRemoveWishList extends BaseClass{
 		hp.clickOnSignInBtn();
 		
 		LoginPage lp = new LoginPage();
-		lp.emailInputFieldLogin(p.getProperty("username"));
-		lp.passwordInputLogin(p.getProperty("password"));
-		lp.clickonSignInBtn();
+		lp.login(p.getProperty("username"),p.getProperty("password"));
 		
 		hp.clickonMenCategory();
 		
