@@ -1,8 +1,37 @@
-#Git ignore Folders
+############################
+# Eclipse specific
+############################
+.classpath
+.project
+.settings/
 
+############################
+# Maven build
+############################
 target/
-reports/
-screenshots/
-test-output/
-logs/
 
+############################
+# TestNG outputs
+############################
+test-output/
+surefire-reports/
+failsafe-reports/
+
+############################
+# IntelliJ (if you use it)
+############################
+.idea/
+*.iml
+
+############################
+# Logs & temp
+############################
+*.log
+logs/
+*.tmp
+
+############################
+# OS files
+############################
+.DS_Store
+Thumbs.db
