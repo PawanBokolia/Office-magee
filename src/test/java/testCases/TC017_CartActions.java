@@ -1,31 +1,37 @@
 package testCases;
 
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import pageObjects.CartPage;
 import pageObjects.HomePage;
 import pageObjects.ProductDetail;
 import pageObjects.ProductListing;
 import testBase.BaseClass;
-import utilities.Reusable_Screenshots;
 
-public class TC014_MiniCartDisplay extends BaseClass {
+public class TC017_CartActions extends BaseClass{
 
 	@Test
-	public void minicartDisplay() throws InterruptedException
+	public void cartActions() throws InterruptedException 
 	{
 		HomePage hp = new HomePage();
 		hp.acceptCookies();
 		hp.clickonMenCategory();
-	
+		
 		ProductListing lp = new ProductListing();
 		lp.clickonTestProduct();
 		
 		ProductDetail pd = new ProductDetail();
-		pd.allSizeoption(1);
 		pd.clickOnAddToCartBtn();
-		Assert.assertEquals(pd.miniCartDispaly(), true);
-		Reusable_Screenshots.Screenshots("TC014_MiniCartDisplay");
+		pd.clickOnContBtn();
+		pd.clickOnCartBtn();
+		
+		CartPage cp = new CartPage();
+		cp.clickOnEditButton();
+		
+		//need to 
+		
+		cp.clickOnDeleteBtn();
+		
 		
 	}
 }

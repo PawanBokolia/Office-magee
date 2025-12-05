@@ -1,5 +1,7 @@
 package pageObjects;
 
+import java.util.List;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -15,11 +17,13 @@ public class ProductDetail extends BasePage{
 	@FindBy(css= "button[title='Add to Wish List']")
 	WebElement wishListBtn;
 	
+	
+	//product options
 	@FindBy(css="a[title='Navy']")
 	WebElement navColorSelect;
 	
-	@FindBy(xpath="//label[@for='attribute-option-92925-35-1']")
-	WebElement sizeSectionOption;
+	@FindBy(xpath="//div[@role='radiogroup']/child::div")
+	List<WebElement> allSizeOption;
 	
 	
 	//Add to cart button 
@@ -49,10 +53,11 @@ public class ProductDetail extends BasePage{
 		navColorSelect.click();
 	}
 	
-	public void sizeSelection()
+	public void allSizeoption(int number)
 	{
-		sizeSectionOption.click();
+		allSizeOption.get(number).click();
 	}
+	
 	
 	//add to cart 
 	public void clickOnAddToCartBtn()
@@ -75,9 +80,12 @@ public class ProductDetail extends BasePage{
 		contShopBtn.click();
 	}
 	
+	//cart button
 	public void clickOnCartBtn()
 	{
 		wait.elementClickable(cartBtn);
 	}
+	
+
 	
 }

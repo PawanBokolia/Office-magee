@@ -11,7 +11,7 @@ public class ProductListing extends BasePage{
 	}
 
 	//product 
-	@FindBy(xpath="//img[@title='Cavan Donegal Tweed Gilet in Navy Herringbone' and @loading='eager']")
+	@FindBy(xpath="//a[@title='Houndstooth Scarf in Blue']")
 	WebElement testproduct;
 
 	//Filters
@@ -21,6 +21,7 @@ public class ProductListing extends BasePage{
 	@FindBy(xpath="//details[@id='colour_filter']//span")
 	WebElement colorfilter;
 
+	
 	//black filter
 	@FindBy(css="a[style='background-color:#141414']")
 	WebElement blackColorFilter;
@@ -28,6 +29,7 @@ public class ProductListing extends BasePage{
 	@FindBy(css="span[class='filter-value font-bold']")
 	WebElement filterColourVerify;
 
+	
 	//length filter
 	@FindBy(id="fit")
 	WebElement lengthFilteropen;
@@ -38,9 +40,11 @@ public class ProductListing extends BasePage{
 	@FindBy(css="span[class='filter-value font-bold']")
 	WebElement lengthVerify;
 
+	
 	//clear all button
 	@FindBy(xpath="//a[normalize-space()='Clear All']")
 	WebElement clearAllBTN;
+
 
 	//Category
 	@FindBy(id="cat")
@@ -52,6 +56,8 @@ public class ProductListing extends BasePage{
 	@FindBy(css="span[class='filter-value font-bold']")
 	WebElement verifyClothingCategory;
 
+	
+	//pagination
 	@FindBy(css="a[aria-label='Next']")
 	WebElement paginationNextbtn;
 
@@ -136,6 +142,7 @@ public class ProductListing extends BasePage{
 		}
 	}
 
+	//pagination
 	public void clickOnNextBtn()
 	{
 		js.scrollTo(paginationNextbtn);

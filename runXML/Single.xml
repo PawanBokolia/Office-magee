@@ -12,7 +12,7 @@
  
 
     <classes>
-       <class name="testCases.TC016_CurrencyChanger"/>
+       <class name="testCases.TC020_LoggedInOrder"/>
     </classes>
 
 

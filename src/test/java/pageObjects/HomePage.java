@@ -88,6 +88,7 @@ public class HomePage extends BasePage{
 	@FindBy(xpath="//a[normalize-space()='test123']")
 	WebElement searchResultInViewAll;
 	
+	
 	//Currency changer
 	@FindBy(xpath="//button[@class='inline-flex justify-center w-full focus:outline-none']")
 	WebElement currencyBtn;
@@ -232,7 +233,7 @@ public class HomePage extends BasePage{
 		ExcelUtility excel = new ExcelUtility(System.getProperty("user.dir")+"//test-data//Magee-currency.xlsx");
 		int totalrow = excel.getRowCount("Sheet1");
 		
-		for(int i=1; i<totalrow; i++)
+		for(int i=1; i<=totalrow; i++)
 		{
 			String code = excel.getCellData("Sheet1", i, 0);
 			String xpath= excel.getCellData("Sheet1", i, 1);
@@ -241,7 +242,9 @@ public class HomePage extends BasePage{
 		}
 	
 		String finalXpath = map.get(name);
-		driver.findElement(By.xpath(finalXpath)).click();
+		WebElement Element = driver.findElement(By.xpath(finalXpath));
+		js.scrollTo(Element);
+		Element.click();
 	}
 	
 	public String currentURL()
