@@ -20,8 +20,14 @@
 	  <class name="testCases.TC007_AddAndRemoveWishList"/>
 	  <class name="testCases.TC008_ChangePassword"/>
 	  <class name="testCases.TC009_SecarchFunctionality"/>	
-	  
-
+	  <class name="testCases.TC010_BlackColourFilter"/>
+	  <class name="testCases.TC011_LengthFilersActions"/>
+	  <class name="testCases.TC012_OtherFilters"/>
+	  <class name="testCases.TC013_Pagination"/>	
+	  <class name="testCases.TC014_MiniCartDisplay"/>	
+  	  <class name="testCases.TC015_UpdateQuntitywithinCart"/>	
+    
+    
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -15,7 +15,6 @@ public class TC003_ContactUs extends BaseClass{
 		HomePage hp = new HomePage();
 		hp.acceptCookies();
 		hp.clickOnContactUsbtn();
-		
 		Assert.assertEquals(hp.contactUsTitle(), "Contact Us");
 		Reusable_Screenshots.Screenshots("TC003_ContactUs");
 	}

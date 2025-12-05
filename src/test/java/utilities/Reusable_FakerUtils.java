@@ -39,6 +39,11 @@ public class Reusable_FakerUtils {
 		return faker.address().streetAddress();
 	}
 
+	public String randomState()
+	{
+		return faker.address().state();
+	}
+	
 	public String randomCity()
 	{
 		return faker.address().cityName();

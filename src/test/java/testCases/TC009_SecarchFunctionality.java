@@ -14,8 +14,6 @@ public class TC009_SecarchFunctionality extends BaseClass{
 	{
 		HomePage hp = new HomePage();
 		hp.acceptCookies();
-		Thread.sleep(3000);
-		
 		hp.clickonSearchIcon();
 		hp.searchFieldText("test123");
 		

@@ -16,8 +16,6 @@ public class TC006_LoginLogout extends BaseClass{
 	{
 		HomePage hp = new HomePage();
 		hp.acceptCookies();
-		
-		Thread.sleep(3000);
 		hp.clickOnSignInBtn();
 		
 		LoginPage lg = new LoginPage();
