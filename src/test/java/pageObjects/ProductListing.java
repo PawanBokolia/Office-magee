@@ -85,9 +85,9 @@ public class ProductListing extends BasePage{
 	//length filter
 	public void lengthFilter()
 	{
-		filterbutton.click();
-		lengthFilteropen.click();
-		smallLength.click();
+		wait.elementClickable(filterbutton);
+		wait.elementClickable(lengthFilteropen);
+		wait.elementClickable(smallLength);
 	}
 
 	public String verifySmallLength()

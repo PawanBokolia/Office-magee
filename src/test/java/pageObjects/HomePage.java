@@ -79,13 +79,13 @@ public class HomePage extends BasePage{
 	@FindBy(id="search")
 	WebElement searchField;
 	
-	@FindBy(xpath= "(//div[@class='font-normal text-xs text-primaryNew min-h-8'])[1]")
+	@FindBy(xpath= "(//div[@class='font-normal text-xs text-primaryNew min-h-8'])[1]") //indexing used
 	WebElement productNameInSearch;
 	
 	@FindBy(xpath="//button[normalize-space()='View All Products']")
 	WebElement viewAllBtn;
 	
-	@FindBy(xpath="//a[normalize-space()='test123']")
+	@FindBy(xpath="//a[normalize-space()='Houndstooth Scarf in Blue']") //need to change according to product name 
 	WebElement searchResultInViewAll;
 	
 	

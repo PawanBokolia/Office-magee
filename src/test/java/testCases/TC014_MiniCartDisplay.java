@@ -22,7 +22,9 @@ public class TC014_MiniCartDisplay extends BaseClass {
 		lp.clickonTestProduct();
 		
 		ProductDetail pd = new ProductDetail();
-		pd.allSizeoption(1);
+		logger.info("step1");
+//		pd.allSizeoption(1);
+		logger.info("step2");
 		pd.clickOnAddToCartBtn();
 		Assert.assertEquals(pd.miniCartDispaly(), true);
 		Reusable_Screenshots.Screenshots("TC014_MiniCartDisplay");

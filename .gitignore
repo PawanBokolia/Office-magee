@@ -29,6 +29,8 @@ failsafe-reports/
 *.log
 logs/
 *.tmp
+reports/
+screenshots/
 
 ############################
 # OS files

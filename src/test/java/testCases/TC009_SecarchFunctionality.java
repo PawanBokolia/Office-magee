@@ -15,13 +15,13 @@ public class TC009_SecarchFunctionality extends BaseClass{
 		HomePage hp = new HomePage();
 		hp.acceptCookies();
 		hp.clickonSearchIcon();
-		hp.searchFieldText("test123");
+		hp.searchFieldText(p.getProperty("searchProduct"));
 		
 		Thread.sleep(3000);
-		Assert.assertEquals(hp.searchResultProNameInrecommendation(),"test123");
+		Assert.assertEquals(hp.searchResultProNameInrecommendation(),p.getProperty("searchProduct"));
 		Reusable_Screenshots.Screenshots("TC009_SecarchFunctionalityinAutoRecomendation");
 
-		Assert.assertEquals(hp.seachResultInViewAll(), "test123");
+		Assert.assertEquals(hp.seachResultInViewAll(), p.getProperty("searchProduct"));
 		Reusable_Screenshots.Screenshots("TC009_SecarchFunctionality");
 		
 	}

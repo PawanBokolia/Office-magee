@@ -6,7 +6,7 @@
 		<listener class-name="utilities.ExtentReportManager"/>
 	</listeners>	
 	
-	<test name="Master" parallel="false">
+	<test name="Master" preserve-order="true">
     <parameter name="os" value="windows"></parameter>
 	<parameter name="br" value="chrome"></parameter>  
   
@@ -26,6 +26,15 @@
 	  <class name="testCases.TC013_Pagination"/>	
 	  <class name="testCases.TC014_MiniCartDisplay"/>	
   	  <class name="testCases.TC015_UpdateQuntitywithinCart"/>	
+      <class name="testCases.TC016_CurrencyChanger"/>
+      
+ 
+ <!--
+	  <class name="testCases.TC017_CartActions"/>
+      <class name="testCases.TC018_ApplyCouponCode"/>
+      <class name="testCases.TC019_GuestOrder"/>
+      <class name="testCases.TC020_LoggedInOrder"/>
+ -->     
     
     
     </classes>

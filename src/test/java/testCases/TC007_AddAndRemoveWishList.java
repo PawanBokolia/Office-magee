@@ -33,11 +33,11 @@ public class TC007_AddAndRemoveWishList extends BaseClass{
 		
 		Thread.sleep(3000);
 		MyAccount ac = new MyAccount();
-		Assert.assertEquals(ac.wishlistConfMsg(), "test123 has been added to your Wish List. Click here to continue shopping.");
+		Assert.assertEquals(ac.wishlistConfMsg(), "Houndstooth Scarf in Blue has been added to your Wish List. Click here to continue shopping.");
 		Reusable_Screenshots.Screenshots("TC007_AddWishList");
 		
 		ac.removeWishlistItem();
-		Assert.assertEquals(ac.removeWishlistMsg(), "test123 has been removed from your Wish List.");
+		Assert.assertEquals(ac.removeWishlistMsg(), "Houndstooth Scarf in Blue has been removed from your Wish List.");
 		Reusable_Screenshots.Screenshots("TC007_removeWishList");
 		
 	}
