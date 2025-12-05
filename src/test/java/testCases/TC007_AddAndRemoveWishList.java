@@ -18,8 +18,6 @@ public class TC007_AddAndRemoveWishList extends BaseClass{
 	{
 		HomePage hp = new HomePage();
 		hp.acceptCookies();
-	
-		Thread.sleep(3000);
 		hp.clickOnSignInBtn();
 		
 		LoginPage lp = new LoginPage();

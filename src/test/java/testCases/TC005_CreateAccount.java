@@ -16,8 +16,6 @@ public class TC005_CreateAccount  extends BaseClass{
 	{
 		HomePage hp = new HomePage();
 		hp.acceptCookies();
-		
-		Thread.sleep(3000);
 		hp.clickOnSignInBtn();
 		
 		//login page

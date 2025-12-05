@@ -1,7 +1,13 @@
 package pageObjects;
 
+import java.io.IOException;
+import java.util.HashMap;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+
+import utilities.ExcelUtility;
 
 public class HomePage extends BasePage{
 
@@ -82,9 +88,17 @@ public class HomePage extends BasePage{
 	@FindBy(xpath="//a[normalize-space()='test123']")
 	WebElement searchResultInViewAll;
 	
+	//Currency changer
+	@FindBy(xpath="//button[@class='inline-flex justify-center w-full focus:outline-none']")
+	WebElement currencyBtn;
+	
+	@FindBy(css="button[class='inline-flex items-center w-full text-left  font-medium text-primaryNew text-sm focus:outline-none']")
+	WebElement currencyDrp;
+	
+	
 	
 	//cookies
-	public void acceptCookies() 
+	public void acceptCookies() throws InterruptedException 
 	{
 		try 
 		{
@@ -97,6 +111,8 @@ public class HomePage extends BasePage{
 		{
 			System.out.println("cookies pop not present");
 		}
+		
+		Thread.sleep(3000);
 		
 	}
 	
@@ -200,6 +216,39 @@ public class HomePage extends BasePage{
 	}
 	
 	
+	//currency change
+	public void clickonCurrenyBtn()
+	{
+		currencyBtn.click();
+	}
+	
+	
+	
+	public void currencyChanger(String name) throws IOException
+	{
+		currencyDrp.click();
+		
+		HashMap<String,String> map = new HashMap<>();
+		ExcelUtility excel = new ExcelUtility(System.getProperty("user.dir")+"//test-data//Magee-currency.xlsx");
+		int totalrow = excel.getRowCount("Sheet1");
+		
+		for(int i=1; i<totalrow; i++)
+		{
+			String code = excel.getCellData("Sheet1", i, 0);
+			String xpath= excel.getCellData("Sheet1", i, 1);
+		
+			map.put(code, xpath);
+		}
+	
+		String finalXpath = map.get(name);
+		driver.findElement(By.xpath(finalXpath)).click();
+	}
+	
+	public String currentURL()
+	{
+		 String CurrentURL = driver.getCurrentUrl();
+		 return CurrentURL;
+	}
 	
 	
 	

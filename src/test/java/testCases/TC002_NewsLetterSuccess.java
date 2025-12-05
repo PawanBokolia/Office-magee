@@ -14,12 +14,6 @@ public class TC002_NewsLetterSuccess extends BaseClass {
 		
 		HomePage hp = new HomePage();
 		hp.acceptCookies();
-		
-//		Thread.sleep(5000);
-//		hp.popups();
-		
-		Thread.sleep(3000); 
-		
 		hp.newletterEmail(faker.randomEmail());
 		hp.newsSignupBtnClick();
 				
